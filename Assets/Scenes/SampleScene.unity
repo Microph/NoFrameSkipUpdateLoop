@@ -504,9 +504,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d95eb5919f436947b1495823dea3959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetFrameRate: 7
-  animator: {fileID: 2132280840}
+  targetFrameRate: 30
+  minimumFrameRate: 30
+  simulationTickRate: 60
   accumSimulationTicks: 0
+  animator: {fileID: 2132280840}
 --- !u!54 &2132280839
 Rigidbody:
   m_ObjectHideFlags: 0
